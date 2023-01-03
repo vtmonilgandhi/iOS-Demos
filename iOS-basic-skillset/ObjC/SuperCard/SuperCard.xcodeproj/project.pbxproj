@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA7B2CD620EF302800574416 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7B2CD520EF302800574416 /* AppDelegate.m */; };
+		EA7B2CD920EF302800574416 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7B2CD820EF302800574416 /* ViewController.m */; };
+		EA7B2CDC20EF302800574416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA7B2CDA20EF302800574416 /* Main.storyboard */; };
+		EA7B2CDE20EF302800574416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7B2CDD20EF302800574416 /* Assets.xcassets */; };
+		EA7B2CE120EF302800574416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA7B2CDF20EF302800574416 /* LaunchScreen.storyboard */; };
+		EA7B2CE420EF302800574416 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7B2CE320EF302800574416 /* main.m */; };
+		EA7B2CED20EF313400574416 /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7B2CEC20EF313400574416 /* PlayingCardView.m */; };
+		EA7B2CF920EF49D000574416 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7B2CF220EF49CF00574416 /* PlayingCardDeck.m */; };
+		EA7B2CFA20EF49D000574416 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7B2CF320EF49CF00574416 /* Deck.m */; };
+		EA7B2CFB20EF49D000574416 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7B2CF520EF49CF00574416 /* PlayingCard.m */; };
+		EA7B2CFC20EF49D000574416 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7B2CF720EF49D000574416 /* Card.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA7B2CD120EF302800574416 /* SuperCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7B2CD420EF302800574416 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA7B2CD520EF302800574416 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA7B2CD720EF302800574416 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA7B2CD820EF302800574416 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA7B2CDB20EF302800574416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA7B2CDD20EF302800574416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA7B2CE020EF302800574416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA7B2CE220EF302800574416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA7B2CE320EF302800574416 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA7B2CEB20EF313400574416 /* PlayingCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		EA7B2CEC20EF313400574416 /* PlayingCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
+		EA7B2CF020EF49CF00574416 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		EA7B2CF120EF49CF00574416 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		EA7B2CF220EF49CF00574416 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		EA7B2CF320EF49CF00574416 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		EA7B2CF420EF49CF00574416 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		EA7B2CF520EF49CF00574416 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		EA7B2CF620EF49CF00574416 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		EA7B2CF720EF49D000574416 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		EA7B2CF820EF49D000574416 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA7B2CCE20EF302800574416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA7B2CC820EF302800574416 = {
+			isa = PBXGroup;
+			children = (
+				EA7B2CD320EF302800574416 /* SuperCard */,
+				EA7B2CD220EF302800574416 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA7B2CD220EF302800574416 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA7B2CD120EF302800574416 /* SuperCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA7B2CD320EF302800574416 /* SuperCard */ = {
+			isa = PBXGroup;
+			children = (
+				EA7B2CEA20EF303F00574416 /* Supporting Files */,
+				EA7B2CFD20EF49F200574416 /* Model */,
+				EA7B2CEB20EF313400574416 /* PlayingCardView.h */,
+				EA7B2CEC20EF313400574416 /* PlayingCardView.m */,
+				EA7B2CD820EF302800574416 /* ViewController.m */,
+				EA7B2CD720EF302800574416 /* ViewController.h */,
+				EA7B2CDA20EF302800574416 /* Main.storyboard */,
+				EA7B2CDF20EF302800574416 /* LaunchScreen.storyboard */,
+				EA7B2CE220EF302800574416 /* Info.plist */,
+			);
+			path = SuperCard;
+			sourceTree = "<group>";
+		};
+		EA7B2CEA20EF303F00574416 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA7B2CD420EF302800574416 /* AppDelegate.h */,
+				EA7B2CD520EF302800574416 /* AppDelegate.m */,
+				EA7B2CDD20EF302800574416 /* Assets.xcassets */,
+				EA7B2CE320EF302800574416 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA7B2CFD20EF49F200574416 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA7B2CF420EF49CF00574416 /* Card.h */,
+				EA7B2CF720EF49D000574416 /* Card.m */,
+				EA7B2CF020EF49CF00574416 /* CardMatchingGame.h */,
+				EA7B2CF120EF49CF00574416 /* Deck.h */,
+				EA7B2CF320EF49CF00574416 /* Deck.m */,
+				EA7B2CF620EF49CF00574416 /* PlayingCard.h */,
+				EA7B2CF520EF49CF00574416 /* PlayingCard.m */,
+				EA7B2CF820EF49D000574416 /* PlayingCardDeck.h */,
+				EA7B2CF220EF49CF00574416 /* PlayingCardDeck.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA7B2CD020EF302800574416 /* SuperCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA7B2CE720EF302800574416 /* Build configuration list for PBXNativeTarget "SuperCard" */;
+			buildPhases = (
+				EA7B2CCD20EF302800574416 /* Sources */,
+				EA7B2CCE20EF302800574416 /* Frameworks */,
+				EA7B2CCF20EF302800574416 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperCard;
+			productName = SuperCard;
+			productReference = EA7B2CD120EF302800574416 /* SuperCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA7B2CC920EF302800574416 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Monil Gandhi";
+				TargetAttributes = {
+					EA7B2CD020EF302800574416 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EA7B2CCC20EF302800574416 /* Build configuration list for PBXProject "SuperCard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA7B2CC820EF302800574416;
+			productRefGroup = EA7B2CD220EF302800574416 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA7B2CD020EF302800574416 /* SuperCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA7B2CCF20EF302800574416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7B2CE120EF302800574416 /* LaunchScreen.storyboard in Resources */,
+				EA7B2CDE20EF302800574416 /* Assets.xcassets in Resources */,
+				EA7B2CDC20EF302800574416 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA7B2CCD20EF302800574416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7B2CF920EF49D000574416 /* PlayingCardDeck.m in Sources */,
+				EA7B2CD920EF302800574416 /* ViewController.m in Sources */,
+				EA7B2CFB20EF49D000574416 /* PlayingCard.m in Sources */,
+				EA7B2CFC20EF49D000574416 /* Card.m in Sources */,
+				EA7B2CED20EF313400574416 /* PlayingCardView.m in Sources */,
+				EA7B2CE420EF302800574416 /* main.m in Sources */,
+				EA7B2CFA20EF49D000574416 /* Deck.m in Sources */,
+				EA7B2CD620EF302800574416 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA7B2CDA20EF302800574416 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA7B2CDB20EF302800574416 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA7B2CDF20EF302800574416 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA7B2CE020EF302800574416 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA7B2CE520EF302800574416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA7B2CE620EF302800574416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA7B2CE820EF302800574416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F64JZB732Z;
+				INFOPLIST_FILE = SuperCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.volansys.SuperCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA7B2CE920EF302800574416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F64JZB732Z;
+				INFOPLIST_FILE = SuperCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.volansys.SuperCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA7B2CCC20EF302800574416 /* Build configuration list for PBXProject "SuperCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7B2CE520EF302800574416 /* Debug */,
+				EA7B2CE620EF302800574416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA7B2CE720EF302800574416 /* Build configuration list for PBXNativeTarget "SuperCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7B2CE820EF302800574416 /* Debug */,
+				EA7B2CE920EF302800574416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA7B2CC920EF302800574416 /* Project object */;
+}

@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.7.3)
+  - SwiftMQTT (3.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - SwiftMQTT
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - SwiftMQTT
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  SwiftMQTT: acd344613d39c0371de62f9f494e129ca14da9d1
+
+PODFILE CHECKSUM: 8e1fa66ba5d3789f4f48c37b4f491e23a3e33f35
+
+COCOAPODS: 1.5.2

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SLg-vD-nTK">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Imaginarium-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Usj-3Z-lRK">
+                                <rect key="frame" x="0.0" y="243.5" width="375" height="200"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KoR-5x-TvK">
+                                        <rect key="frame" x="172" y="0.0" width="31" height="61.5"/>
+                                        <state key="normal" title="Hive"/>
+                                        <connections>
+                                            <segue destination="SWC-5L-Rno" kind="show" identifier="https://api.androidhive.info/images/sample.jpg" id="a4P-hB-Jvd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="56P-bP-avh">
+                                        <rect key="frame" x="166.5" y="69.5" width="42" height="61"/>
+                                        <state key="normal" title="Donut"/>
+                                        <connections>
+                                            <segue destination="SWC-5L-Rno" kind="show" identifier="https://api.learn2crack.com/android/images/donut.png" id="lXP-bn-843"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ax-ie-D4A">
+                                        <rect key="frame" x="152.5" y="138.5" width="70" height="61.5"/>
+                                        <state key="normal" title="Calculator"/>
+                                        <connections>
+                                            <segue destination="SWC-5L-Rno" kind="show" identifier="https://inducesmile.com/wp-content/uploads/2015/03/mobile.jpg" id="raZ-Ir-yZj"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Usj-3Z-lRK" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="DLA-kM-SNQ"/>
+                            <constraint firstItem="Usj-3Z-lRK" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="FpT-qV-fSF"/>
+                            <constraint firstItem="Usj-3Z-lRK" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="RcH-NM-zGO"/>
+                            <constraint firstItem="Usj-3Z-lRK" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="cI8-My-2km"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Imaginarium" id="8Ij-I8-jOC">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="nAh-o8-KYd"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="240.80000000000001" y="118.29085457271366"/>
+        </scene>
+        <!--Image View Controller-->
+        <scene sceneID="fmK-fR-FpM">
+            <objects>
+                <viewController id="SWC-5L-Rno" customClass="ImageViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ozL-nw-PN0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jgm-EO-gGH">
+                                <rect key="frame" x="0.0" y="20" width="375" height="627"/>
+                            </scrollView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Eme-17-jo1">
+                                <rect key="frame" x="169" y="325.5" width="37" height="37"/>
+                                <color key="color" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jgm-EO-gGH" firstAttribute="leading" secondItem="ozL-nw-PN0" secondAttribute="leading" id="N3X-HW-C2f"/>
+                            <constraint firstAttribute="trailing" secondItem="jgm-EO-gGH" secondAttribute="trailing" id="NDJ-bs-bip"/>
+                            <constraint firstItem="Eme-17-jo1" firstAttribute="centerY" secondItem="yAB-Lk-3De" secondAttribute="centerY" id="R0i-ZS-mJ3"/>
+                            <constraint firstItem="Eme-17-jo1" firstAttribute="centerX" secondItem="yAB-Lk-3De" secondAttribute="centerX" id="WKn-c7-L8L"/>
+                            <constraint firstAttribute="bottom" secondItem="jgm-EO-gGH" secondAttribute="bottom" constant="20" symbolic="YES" id="YLm-QS-GuE"/>
+                            <constraint firstItem="jgm-EO-gGH" firstAttribute="top" secondItem="ozL-nw-PN0" secondAttribute="top" constant="20" symbolic="YES" id="lY0-hJ-rgz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yAB-Lk-3De"/>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="jgm-EO-gGH" id="EHE-GQ-yTG"/>
+                        <outlet property="spinner" destination="Eme-17-jo1" id="3Ug-lB-EmA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iv2-7L-kQs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="984.79999999999995" y="117.39130434782609"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="jVw-h0-3lZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="SLg-vD-nTK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="emu-Se-9Xr">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="eaB-Px-QW3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BbX-rh-Y0i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-481" y="117"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="raZ-Ir-yZj"/>
+    </inferredMetricsTieBreakers>
+</document>

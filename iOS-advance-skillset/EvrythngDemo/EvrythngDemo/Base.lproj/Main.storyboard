@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YQF-L2-mU7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="fEb-F8-eFr">
+            <objects>
+                <viewController id="YQF-L2-mU7" customClass="ViewController" customModule="EvrythngDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4xL-bo-ZAN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="eBulb" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XmC-Y0-AAk">
+                                <rect key="frame" x="-0.5" y="239" width="375" height="37"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="oxa-6G-BKr">
+                                <rect key="frame" x="159.5" y="308" width="58" height="36.5"/>
+                                <connections>
+                                    <action selector="toggleBulb:" destination="YQF-L2-mU7" eventType="valueChanged" id="oxl-ZX-e1s"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oxa-6G-BKr" firstAttribute="width" secondItem="4xL-bo-ZAN" secondAttribute="width" multiplier="0.15" id="Jdi-rc-zEi"/>
+                            <constraint firstItem="oxa-6G-BKr" firstAttribute="centerY" secondItem="WCM-bK-ZBO" secondAttribute="centerY" multiplier="0.95" id="Lxr-zp-2EI"/>
+                            <constraint firstItem="XmC-Y0-AAk" firstAttribute="height" secondItem="4xL-bo-ZAN" secondAttribute="height" multiplier="0.055" id="Qr6-Gx-SYZ"/>
+                            <constraint firstItem="XmC-Y0-AAk" firstAttribute="width" secondItem="4xL-bo-ZAN" secondAttribute="width" id="djB-tL-XBl"/>
+                            <constraint firstItem="XmC-Y0-AAk" firstAttribute="centerY" secondItem="WCM-bK-ZBO" secondAttribute="centerY" multiplier="0.75" id="mJT-Xa-QWj"/>
+                            <constraint firstItem="oxa-6G-BKr" firstAttribute="centerX" secondItem="WCM-bK-ZBO" secondAttribute="centerX" id="ppj-ng-HIb"/>
+                            <constraint firstItem="oxa-6G-BKr" firstAttribute="height" secondItem="4xL-bo-ZAN" secondAttribute="height" multiplier="0.055" id="tt1-lz-fww"/>
+                            <constraint firstItem="XmC-Y0-AAk" firstAttribute="centerX" secondItem="WCM-bK-ZBO" secondAttribute="centerX" id="xcS-hr-ZSQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WCM-bK-ZBO"/>
+                    </view>
+                    <connections>
+                        <outlet property="bulbSwitch" destination="oxa-6G-BKr" id="RUd-qA-cE1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wJo-nm-p89" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

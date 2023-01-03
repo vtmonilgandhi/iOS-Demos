@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SegmentExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="8uk-X1-O4w">
+                                <rect key="frame" x="127" y="32" width="121" height="29"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                                <connections>
+                                    <action selector="indexChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="ajf-WN-Spp"/>
+                                </connections>
+                            </segmentedControl>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="uSi-vV-ADL">
+                                <rect key="frame" x="140.5" y="385" width="94" height="29"/>
+                                <connections>
+                                    <action selector="stepLabel:" destination="BYZ-38-t0r" eventType="valueChanged" id="HXw-qF-I2B"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k11-80-Iel">
+                                <rect key="frame" x="166.5" y="447.5" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="KXf-kA-gKo">
+                                <rect key="frame" x="112" y="320" width="150" height="31"/>
+                                <connections>
+                                    <action selector="inputLabel:" destination="BYZ-38-t0r" eventType="valueChanged" id="uIf-CY-ZyJ"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KXf-kA-gKo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3U8-et-NsK"/>
+                            <constraint firstItem="8uk-X1-O4w" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="NAW-iV-v13"/>
+                            <constraint firstItem="k11-80-Iel" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vaj-Ac-EQO"/>
+                            <constraint firstItem="uSi-vV-ADL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a7X-25-b21"/>
+                            <constraint firstItem="8uk-X1-O4w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="biH-Ps-pKa"/>
+                            <constraint firstItem="KXf-kA-gKo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="114" id="brb-kh-PQ9"/>
+                            <constraint firstItem="KXf-kA-gKo" firstAttribute="top" secondItem="8uk-X1-O4w" secondAttribute="bottom" constant="260" id="nPV-d7-GAg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KXf-kA-gKo" secondAttribute="trailing" constant="115" id="ns4-le-gDP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="k11-80-Iel" secondAttribute="bottom" constant="199" id="uAI-uV-dww"/>
+                            <constraint firstItem="k11-80-Iel" firstAttribute="top" secondItem="uSi-vV-ADL" secondAttribute="bottom" constant="33.5" id="wnC-xK-uKW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="segmentCtrl" destination="8uk-X1-O4w" id="V4a-NU-dUo"/>
+                        <outlet property="slderCtrl" destination="KXf-kA-gKo" id="961-UX-zXc"/>
+                        <outlet property="stepperCtrl" destination="uSi-vV-ADL" id="Mzc-fV-RmF"/>
+                        <outlet property="txtLabel" destination="k11-80-Iel" id="GgK-kG-Ftf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

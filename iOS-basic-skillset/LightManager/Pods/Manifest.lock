@@ -1,0 +1,22 @@
+PODS:
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Swift (3.4.2):
+    - CocoaLumberjack/Default
+  - TGPControls (4.0.0)
+
+DEPENDENCIES:
+  - CocoaLumberjack/Swift
+  - TGPControls
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaLumberjack
+    - TGPControls
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  TGPControls: d7ab5a338746c100b2ae57f6b6cedee7151f116a
+
+PODFILE CHECKSUM: 4c8112d9a7fc000be8d3a798ca74323a3b937645
+
+COCOAPODS: 1.5.2

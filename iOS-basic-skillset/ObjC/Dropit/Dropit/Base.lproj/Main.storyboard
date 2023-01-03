@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B6b-zd-4Tb" customClass="BezierPathView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="UW2-XR-T95" appends="YES" id="c9Y-kc-jf0"/>
+                                    <outletCollection property="gestureRecognizers" destination="rri-ye-U2B" appends="YES" id="ZQ8-1r-DL1"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="B6b-zd-4Tb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="53r-pa-oIN"/>
+                            <constraint firstItem="B6b-zd-4Tb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="jxf-LK-UfO"/>
+                            <constraint firstItem="B6b-zd-4Tb" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="wKW-U5-lzP"/>
+                            <constraint firstItem="B6b-zd-4Tb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="z6z-dO-RiX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="gameView" destination="B6b-zd-4Tb" id="Is8-Dc-5Vk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="UW2-XR-T95">
+                    <connections>
+                        <action selector="tap:" destination="BYZ-38-t0r" id="OTq-z0-eca"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="rri-ye-U2B">
+                    <connections>
+                        <action selector="pan:" destination="BYZ-38-t0r" id="KKZ-n9-xuP"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-98.400000000000006" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+</document>

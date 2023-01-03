@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1019D720ECA18800C7EC13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1019D620ECA18800C7EC13 /* AppDelegate.m */; };
+		EA1019DA20ECA18800C7EC13 /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1019D920ECA18800C7EC13 /* CardGameViewController.m */; };
+		EA1019DD20ECA18800C7EC13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1019DB20ECA18800C7EC13 /* Main.storyboard */; };
+		EA1019DF20ECA18800C7EC13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1019DE20ECA18800C7EC13 /* Assets.xcassets */; };
+		EA1019E220ECA18800C7EC13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1019E020ECA18800C7EC13 /* LaunchScreen.storyboard */; };
+		EA1019E520ECA18800C7EC13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1019E420ECA18800C7EC13 /* main.m */; };
+		EAA1622F20ECBBA80011B009 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA1622820ECBB9D0011B009 /* PlayingCard.m */; };
+		EAA1623020ECBBA80011B009 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA1622A20ECBBA10011B009 /* PlayingCardDeck.m */; };
+		EAA1623120ECBBA80011B009 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA1622C20ECBBA40011B009 /* Deck.m */; };
+		EAA1623220ECBBA80011B009 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA1622D20ECBBA60011B009 /* Card.m */; };
+		EAA1623620ECC01F0011B009 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA1623520ECC01F0011B009 /* CardMatchingGame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA1019D220ECA18800C7EC13 /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1019D520ECA18800C7EC13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA1019D620ECA18800C7EC13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA1019D820ECA18800C7EC13 /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
+		EA1019D920ECA18800C7EC13 /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
+		EA1019DC20ECA18800C7EC13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA1019DE20ECA18800C7EC13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA1019E120ECA18800C7EC13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA1019E320ECA18800C7EC13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1019E420ECA18800C7EC13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAA1622720ECBB9B0011B009 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		EAA1622820ECBB9D0011B009 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		EAA1622920ECBB9F0011B009 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		EAA1622A20ECBBA10011B009 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		EAA1622B20ECBBA20011B009 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		EAA1622C20ECBBA40011B009 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		EAA1622D20ECBBA60011B009 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		EAA1622E20ECBBA80011B009 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		EAA1623420ECC01F0011B009 /* CardMatchingGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		EAA1623520ECC01F0011B009 /* CardMatchingGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA1019CF20ECA18800C7EC13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA1019C920ECA18800C7EC13 = {
+			isa = PBXGroup;
+			children = (
+				EA1019D420ECA18800C7EC13 /* Matchismo */,
+				EA1019D320ECA18800C7EC13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA1019D320ECA18800C7EC13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA1019D220ECA18800C7EC13 /* Matchismo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA1019D420ECA18800C7EC13 /* Matchismo */ = {
+			isa = PBXGroup;
+			children = (
+				EA1019EB20ECA42200C7EC13 /* Supporting Files */,
+				EA1019D820ECA18800C7EC13 /* CardGameViewController.h */,
+				EA1019D920ECA18800C7EC13 /* CardGameViewController.m */,
+				EAA1623320ECBBBF0011B009 /* Model */,
+				EA1019E320ECA18800C7EC13 /* Info.plist */,
+				EA1019DB20ECA18800C7EC13 /* Main.storyboard */,
+				EA1019E020ECA18800C7EC13 /* LaunchScreen.storyboard */,
+			);
+			path = Matchismo;
+			sourceTree = "<group>";
+		};
+		EA1019EB20ECA42200C7EC13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA1019D520ECA18800C7EC13 /* AppDelegate.h */,
+				EA1019D620ECA18800C7EC13 /* AppDelegate.m */,
+				EA1019DE20ECA18800C7EC13 /* Assets.xcassets */,
+				EA1019E420ECA18800C7EC13 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAA1623320ECBBBF0011B009 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EAA1622720ECBB9B0011B009 /* Card.h */,
+				EAA1622D20ECBBA60011B009 /* Card.m */,
+				EAA1622920ECBB9F0011B009 /* Deck.h */,
+				EAA1622C20ECBBA40011B009 /* Deck.m */,
+				EAA1622E20ECBBA80011B009 /* PlayingCard.h */,
+				EAA1622820ECBB9D0011B009 /* PlayingCard.m */,
+				EAA1622B20ECBBA20011B009 /* PlayingCardDeck.h */,
+				EAA1622A20ECBBA10011B009 /* PlayingCardDeck.m */,
+				EAA1623420ECC01F0011B009 /* CardMatchingGame.h */,
+				EAA1623520ECC01F0011B009 /* CardMatchingGame.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA1019D120ECA18800C7EC13 /* Matchismo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1019E820ECA18800C7EC13 /* Build configuration list for PBXNativeTarget "Matchismo" */;
+			buildPhases = (
+				EA1019CE20ECA18800C7EC13 /* Sources */,
+				EA1019CF20ECA18800C7EC13 /* Frameworks */,
+				EA1019D020ECA18800C7EC13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Matchismo;
+			productName = Matchismo;
+			productReference = EA1019D220ECA18800C7EC13 /* Matchismo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA1019CA20ECA18800C7EC13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Monil Gandhi";
+				TargetAttributes = {
+					EA1019D120ECA18800C7EC13 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EA1019CD20ECA18800C7EC13 /* Build configuration list for PBXProject "Matchismo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA1019C920ECA18800C7EC13;
+			productRefGroup = EA1019D320ECA18800C7EC13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA1019D120ECA18800C7EC13 /* Matchismo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA1019D020ECA18800C7EC13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1019E220ECA18800C7EC13 /* LaunchScreen.storyboard in Resources */,
+				EA1019DF20ECA18800C7EC13 /* Assets.xcassets in Resources */,
+				EA1019DD20ECA18800C7EC13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA1019CE20ECA18800C7EC13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA1623020ECBBA80011B009 /* PlayingCardDeck.m in Sources */,
+				EA1019DA20ECA18800C7EC13 /* CardGameViewController.m in Sources */,
+				EA1019E520ECA18800C7EC13 /* main.m in Sources */,
+				EAA1622F20ECBBA80011B009 /* PlayingCard.m in Sources */,
+				EAA1623620ECC01F0011B009 /* CardMatchingGame.m in Sources */,
+				EAA1623120ECBBA80011B009 /* Deck.m in Sources */,
+				EAA1623220ECBBA80011B009 /* Card.m in Sources */,
+				EA1019D720ECA18800C7EC13 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA1019DB20ECA18800C7EC13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1019DC20ECA18800C7EC13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA1019E020ECA18800C7EC13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1019E120ECA18800C7EC13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA1019E620ECA18800C7EC13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA1019E720ECA18800C7EC13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA1019E920ECA18800C7EC13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F64JZB732Z;
+				INFOPLIST_FILE = Matchismo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.volansys.Matchismo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA1019EA20ECA18800C7EC13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F64JZB732Z;
+				INFOPLIST_FILE = Matchismo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.volansys.Matchismo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA1019CD20ECA18800C7EC13 /* Build configuration list for PBXProject "Matchismo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1019E620ECA18800C7EC13 /* Debug */,
+				EA1019E720ECA18800C7EC13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1019E820ECA18800C7EC13 /* Build configuration list for PBXNativeTarget "Matchismo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1019E920ECA18800C7EC13 /* Debug */,
+				EA1019EA20ECA18800C7EC13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA1019CA20ECA18800C7EC13 /* Project object */;
+}

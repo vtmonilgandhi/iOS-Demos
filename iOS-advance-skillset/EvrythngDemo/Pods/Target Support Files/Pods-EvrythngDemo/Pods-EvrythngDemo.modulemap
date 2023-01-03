@@ -1,0 +1,6 @@
+framework module Pods_EvrythngDemo {
+  umbrella header "Pods-EvrythngDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

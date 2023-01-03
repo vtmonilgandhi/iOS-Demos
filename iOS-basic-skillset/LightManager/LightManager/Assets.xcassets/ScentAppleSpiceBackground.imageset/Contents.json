@@ -1,0 +1,56 @@
+{
+  "images" : [
+    {
+      "resizing" : {
+        "mode" : "3-part-horizontal",
+        "center" : {
+          "mode" : "stretch",
+          "width" : 1
+        },
+        "cap-insets" : {
+          "right" : 286,
+          "left" : 285
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "apple_spice_pic_d3_u810.png",
+      "scale" : "1x"
+    },
+    {
+      "resizing" : {
+        "mode" : "3-part-horizontal",
+        "center" : {
+          "mode" : "stretch",
+          "width" : 1
+        },
+        "cap-insets" : {
+          "right" : 286,
+          "left" : 285
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "apple_spice_pic_d3_u810-1.png",
+      "scale" : "2x"
+    },
+    {
+      "resizing" : {
+        "mode" : "3-part-horizontal",
+        "center" : {
+          "mode" : "stretch",
+          "width" : 1
+        },
+        "cap-insets" : {
+          "right" : 286,
+          "left" : 285
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "apple_spice_pic_d3_u810-2.png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

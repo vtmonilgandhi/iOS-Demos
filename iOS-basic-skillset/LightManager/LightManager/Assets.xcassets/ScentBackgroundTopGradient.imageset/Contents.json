@@ -1,0 +1,56 @@
+{
+  "images" : [
+    {
+      "resizing" : {
+        "mode" : "3-part-horizontal",
+        "center" : {
+          "mode" : "tile",
+          "width" : 1
+        },
+        "cap-insets" : {
+          "right" : 375,
+          "left" : 374
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "gradient_overlay_u12.png",
+      "scale" : "1x"
+    },
+    {
+      "resizing" : {
+        "mode" : "3-part-horizontal",
+        "center" : {
+          "mode" : "tile",
+          "width" : 1
+        },
+        "cap-insets" : {
+          "right" : 375,
+          "left" : 374
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "gradient_overlay_u12-1.png",
+      "scale" : "2x"
+    },
+    {
+      "resizing" : {
+        "mode" : "3-part-horizontal",
+        "center" : {
+          "mode" : "tile",
+          "width" : 1
+        },
+        "cap-insets" : {
+          "right" : 375,
+          "left" : 374
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "gradient_overlay_u12-2.png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

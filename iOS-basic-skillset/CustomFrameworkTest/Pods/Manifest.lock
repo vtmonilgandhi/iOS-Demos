@@ -1,0 +1,16 @@
+PODS:
+  - GhostyTextField (1.0.0)
+
+DEPENDENCIES:
+  - GhostyTextField (from `../GhostyTextField`)
+
+EXTERNAL SOURCES:
+  GhostyTextField:
+    :path: "../GhostyTextField"
+
+SPEC CHECKSUMS:
+  GhostyTextField: 2925d25d0ae14ef50c95e35c484bf7a1a3954e40
+
+PODFILE CHECKSUM: 46e1abd39e3c69211c6c41a3c25bd9e548ab223e
+
+COCOAPODS: 1.5.2
